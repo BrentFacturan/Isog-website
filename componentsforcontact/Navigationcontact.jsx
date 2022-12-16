@@ -1,4 +1,5 @@
 import styles from "./Navigationcontact.module.css";
+import Link from "next/link";
 
 export default function Navigationcontact() {
     return (
@@ -8,10 +9,10 @@ export default function Navigationcontact() {
                 <img src="LOGO.jpg "/>
             </div>
             <ul className={styles.navbar}>
-                <li><Link href="/index.js">HOME</Link></li>
-                <li><Link href="#product">PRODUCT</Link></li>
-                <li><Link href="#about">ABOUT</Link></li>
-                <li><Link href="#contact">CONTACT</Link></li>            
+            <li><Link href="/">HOME</Link></li>
+                <li><Link href="/Product">PRODUCT</Link></li>
+                <li><Link href="/Company">ABOUT</Link></li>
+                <li><Link href="/Contact">CONTACT</Link></li>         
             </ul>
             
         

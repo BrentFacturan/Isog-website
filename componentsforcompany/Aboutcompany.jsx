@@ -8,7 +8,7 @@ export default function Aboutcompany() {
             <p>IMission:        Lorem Ipsum is simply dummy text of the printing 
             and typesetting industry. Lorem Ipsum has been the
             standard dummy text ever since the 1500s</p>   
-            <a href="#" class="btn">LEARN MORE</a>       
+            <a href="#" className={styles.btn}>LEARN MORE</a>       
     </div>       
     </div>
     );
