@@ -8,4 +8,4 @@ export default function Contact(){
             </div>
         </section>
     );
-}
+}// this is first project and it merges the files

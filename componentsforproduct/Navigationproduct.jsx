@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./Navigationproduct.module.css";
 
 export default function Navigationproduct() {
@@ -9,10 +10,10 @@ export default function Navigationproduct() {
                 <img src="LOGO.jpg "/>
             </div>
             <ul className={styles.navbar}>
-                <li><a href="/index.js">HOME</a></li>
-                <li><a href="#product">PRODUCT</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#contact">CONTACT</a></li>            
+                <li><Link href="/index.js">HOME</Link></li>
+                <li><Link href="#product">PRODUCT</Link></li>
+                <li><Link href="#about">ABOUT</Link></li>
+                <li><Link href="#contact">CONTACT</Link></li>            
             </ul>
             
         

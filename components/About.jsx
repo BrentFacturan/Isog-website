@@ -18,3 +18,4 @@ export default function About() {
       
     );
   }
+  // this is first project and it merges the files

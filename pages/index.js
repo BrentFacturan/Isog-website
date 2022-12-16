@@ -6,7 +6,7 @@ import Navigation from "../componentsforindex/Navigation";
 import Product from "../componentsforindex/Product";
 import Aboutext from "../componentsforindex/Aboutext";
 
-export default function Mainpage() {
+export default function Indexpage() {
   return (
   <div>
     <Navigation />
